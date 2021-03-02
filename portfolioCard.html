@@ -1,0 +1,87 @@
+<!-- Bootstrap-Powered HTML -->
+
+<!-- Students:
+  1. Where is the HTML document drawing its styles from?
+
+  2. How does our browser know which element to style in which way? (ex: button face or background banner)
+-->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Ogreland</title>
+
+  <!-- We link our html to the Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body style="background-color: steelblue;">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ogreland</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Cave</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Miscellaneous Marauders
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Monsters</a></li>
+                <li><a class="dropdown-item" href="#">Mayhem</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Pandemonium</a></li>
+            </ul>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
+  <!-- Container Div -->
+  <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="header">
+                    <h1>About Gorgorole the Dude</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="https://image.shutterstock.com/image-illustration/green-ogre-3d-illustration-260nw-1047575911.jpg" alt="Gorgorole" style="height: 150px; width: 150px;" />
+                    </div>
+                    <div class="col-md-9">
+                        I told you before and you didn't like it then so you won't like it now but this is one tough hombre and he doesn't play down to the level of the competition. If you aren't prepared to go 12 rounds with the baddest of the bad and the best of the worst then don't bother coming round here because he will devour you like a bag of fries.
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card mt-2" >
+                    <img src="https://cdn.pixabay.com/photo/2019/08/11/23/22/orc-4400046_960_720.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">In Action</h5>
+                    <p class="card-text">Combining devastating power with blinding speed and panther-like agility</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
